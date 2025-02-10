@@ -1,0 +1,71 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for IDFA_AAID Plugin",
+  "text": {
+    "plugins": {
+      "emi_indo_idfa_aaid": {
+        "name": "IDFA_AAID",
+        "description": "Cordova plugin for getting Advertising ID (IDFA or AAID)",
+        "help-url": "https://www.construct.net/en/make-games/addons/553/advertising-id-idfa-aaid/documentation",
+        "properties": {
+          "ANDROID-PLAY-ADID-VERSION": {
+            "name": "ANDROID-PLAY-ADID-VERSION :",
+            "desc": "ANDROID-PLAY-ADID-VERSION"
+          }
+        },
+        "aceCategories": {
+          "custom": "IDFA OR AAID",
+          "trackingpermission": "0 tracking permission",
+          "requestpermission": "1 request permission",
+          "request": "2 request success",
+          "response": "Response"
+        },
+        "conditions": {
+          "tracking_not": {
+            "list-name": "On tracking NOT DETERMINED",
+            "display-text": "On tracking NOT DETERMINED",
+            "description": "User has not yet received an authorization request to authorize access to IDFA"
+          },
+          "permission_not_determined": {
+            "list-name": "On Permission Not Determined",
+            "display-text": "On Permission Not Determined",
+            "description": "User has not yet received an authorization request to authorize access to IDFA"
+          },
+          "permission_restricted": {
+            "list-name": "On Permission Restricted",
+            "display-text": "On Permission Restricted",
+            "description": "User restricted the value returned if authorization to access IDFA"
+          },
+          "permission_denied": {
+            "list-name": "On Permission Denied",
+            "display-text": "On Permission Denied",
+            "description": "The value returned if the user denies authorization to access IDFA"
+          },
+          "permission_authorized": {
+            "list-name": "On Permission Authorized",
+            "display-text": "On Permission Authorized",
+            "description": "The value returned if the user authorizes access to IDFA"
+          },
+          "idfaoraaid": {
+            "list-name": "On result Idfa or aaid",
+            "display-text": "On result Idfa or aaid",
+            "description": "( result )The value returned if authorization to access app-related data that can be used for tracking the user or the device is restricted."
+          }
+        },
+        "actions": {
+          "info": {
+            "list-name": "get Info",
+            "display-text": "get Info",
+            "description": "get Info Idfa or aaid"
+          }
+        },
+        "expressions": {
+          "resp": {
+            "translated-name": "response",
+            "description": "idfa || aaid response"
+          }
+        }
+      }
+    }
+  }
+}

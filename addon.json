@@ -1,0 +1,34 @@
+{
+  "is-c3-addon": true,
+  "sdk-version": 2,
+  "min-construct-version": "r401",
+  "type": "plugin",
+  "name": "IDFA_AAID",
+  "id": "EMI_INDO_IDFA_AAID",
+  "version": "1.0.0.0",
+  "author": "EMI_INDO",
+  "website": "https://www.construct.net/en/game-assets/users/emiindo-378213",
+  "documentation": "https://www.construct.net/en/make-games/addons/553/advertising-id-idfa-aaid/documentation",
+  "description": "Cordova plugin for getting Advertising ID (IDFA or AAID)",
+  "editor-scripts": [
+    "plugin.js",
+    "type.js",
+    "instance.js"
+  ],
+  "file-list": [
+    "c3runtime/main.js",
+    "c3runtime/plugin.js",
+    "c3runtime/type.js",
+    "c3runtime/instance.js",
+    "c3runtime/conditions.js",
+    "c3runtime/actions.js",
+    "c3runtime/expressions.js",
+    "lang/en-US.json",
+    "aces.json",
+    "addon.json",
+    "icon.svg",
+    "instance.js",
+    "plugin.js",
+    "type.js"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "custom": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "info",
+        "scriptName": "Info",
+        "highlight": false,
+        "isAsync": true
+      }
+    ],
+    "expressions": []
+  },
+  "trackingpermission": {
+    "conditions": [
+      {
+        "id": "tracking_not",
+        "scriptName": "Tracking_Not",
+        "highlight": false,
+        "isTrigger": true
+      }
+    ],
+    "actions": [],
+    "expressions": []
+  },
+  "requestpermission": {
+    "conditions": [
+      {
+        "id": "permission_not_determined",
+        "scriptName": "Permission_Not_Determined",
+        "highlight": false,
+        "isTrigger": true
+      },
+      {
+        "id": "permission_restricted",
+        "scriptName": "Permission_Restricted",
+        "highlight": false,
+        "isTrigger": true
+      },
+      {
+        "id": "permission_denied",
+        "scriptName": "Permission_Denied",
+        "highlight": false,
+        "isTrigger": true
+      },
+      {
+        "id": "permission_authorized",
+        "scriptName": "Permission_Authorized",
+        "highlight": false,
+        "isTrigger": true
+      }
+    ],
+    "actions": [],
+    "expressions": []
+  },
+  "request": {
+    "conditions": [
+      {
+        "id": "idfaoraaid",
+        "scriptName": "Idfaoraaid",
+        "highlight": false,
+        "isTrigger": true
+      }
+    ],
+    "actions": [],
+    "expressions": []
+  },
+  "response": {
+    "conditions": [],
+    "actions": [],
+    "expressions": [
+      {
+        "id": "resp",
+        "expressionName": "Resp",
+        "returnType": "any"
+      }
+    ]
+  }
+}
