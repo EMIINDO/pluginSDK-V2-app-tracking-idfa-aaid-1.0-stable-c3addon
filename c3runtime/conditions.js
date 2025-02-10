@@ -1,6 +1,6 @@
 "use strict";
 {
-    self.globalThis.C3.Plugins.EMI_INDO_IDFA_AAID.Cnds = {
+    globalThis.C3.Plugins.EMI_INDO_IDFA_AAID.Cnds = {
         Tracking_Not()
         {
             return true;
